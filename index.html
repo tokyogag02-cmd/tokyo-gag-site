@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>株式会社TOKYO GAG</title>
+  <meta name="description" content="株式会社TOKYO GAGは、キッチンカー、BAR、飲食事業を通じて、食と空間で人生を彩る企業です。" />
+  <meta name="theme-color" content="#050403" />
+
+  <meta property="og:title" content="株式会社TOKYO GAG" />
+  <meta property="og:description" content="食と空間で、人生を彩る。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="hero.jpg" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <img src="tokyo_gag_logo.png" alt="TOKYO GAG" />
+      <div class="loader-word">TOKYO GAG</div>
+    </div>
+  </div>
+
+  <nav class="nav" id="nav">
+    <a href="#top" class="nav-logo" aria-label="TOKYO GAG"></a>
+
+    <div class="nav-links">
+      <a href="#top">TOP</a>
+      <a href="#vision">VISION</a>
+      <a href="#business">BUSINESS</a>
+      <a href="#history">HISTORY</a>
+      <a href="#company">COMPANY</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+
+    <button class="menu-btn" id="menuBtn" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#top">TOP</a>
+    <a href="#vision">VISION</a>
+    <a href="#business">BUSINESS</a>
+    <a href="#history">HISTORY</a>
+    <a href="#company">COMPANY</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+
+  <header class="hero video-hero" id="top">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="hero.jpg">
+      <source src="hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-fallback"></div>
+    <div class="hero-shade"></div>
+
+    <div class="hero-content">
+      <img class="main-logo" src="tokyo_gag_logo.png" alt="TOKYO GAG logo" />
+      <h1>TOKYO GAG</h1>
+      <div class="sub">株式会社TOKYO GAG</div>
+      <div class="tagline">食と空間で、人生を彩る。</div>
+    </div>
+
+    <div class="scroll">SCROLL</div>
+  </header>
+
+  <main>
+    <section class="vision section" id="vision">
+      <div class="vision-box reveal">
+        <div class="section-label">VISION</div>
+        <h2><span>食と空間で、</span><br><span>人生を彩る。</span></h2>
+        <div class="gold-line"></div>
+        <p>私たちは、食と空間を通じて、人々の心を豊かにし、新しい価値と楽しさを創造します。</p>
+        <p>何気ない一日を、忘れられない一日に変える。</p>
+        <p>人が集い、語り、新たなつながりや物語が生まれる場所を創り続けること。</p>
+        <p>それが、私たちの存在意義です。</p>
+      </div>
+    </section>
+
+    <section class="business section" id="business">
+      <div class="section-title reveal">
+        <span>BUSINESS</span>
+        <h2>多彩な事業で、新しい体験を。</h2>
+      </div>
+
+      <div class="business-grid">
+        <button class="business-card reveal delay-1" type="button" data-modal="kitchenModal">
+          <div class="card-photo kitchen-photo"></div>
+          <div class="card-body">
+            <div class="card-number">01</div>
+            <h3>キッチンカー事業</h3>
+            <div class="brand-name">キッチンカー榮登庵</div>
+            <p>こだわりの食材と味を、様々な場所へお届けします。</p>
+            <div class="info-list">Instagram：@kitchencar.adrian</div>
+            <a class="outline-btn" href="https://www.instagram.com/kitchencar.adrian/" target="_blank" rel="noopener">INSTAGRAM</a>
+            <div class="tap-note">TAP / CLICKで詳細を見る</div>
+          </div>
+        </button>
+
+        <button class="business-card reveal delay-2" type="button" data-modal="barModal">
+          <div class="logo-area">
+            <img class="bar-logo" src="bar_logo.jpg" alt="Bar Don Coron daane" />
+          </div>
+          <div class="card-body">
+            <div class="card-number">02</div>
+            <h3>BAR事業</h3>
+            <div class="brand-name">Bar Don Coron daane</div>
+            <p>上質な空間で、特別な時間を提供します。</p>
+            <div class="info-list">
+              神奈川県川崎市麻生区栗平1-4-26 B102<br>
+              044-712-0899<br>
+              <span class="coming">2号店 2026年10月 立川駅前 OPEN予定</span>
+            </div>
+            <a class="outline-btn" href="https://www.instagram.com/bar_doncondaane/" target="_blank" rel="noopener">INSTAGRAM</a>
+            <div class="tap-note">TAP / CLICKで詳細を見る</div>
+          </div>
+        </button>
+
+        <button class="business-card reveal delay-3" type="button" data-modal="foodModal">
+          <div class="card-photo food-photo"></div>
+          <div class="card-body">
+            <div class="card-number">03</div>
+            <h3>飲食事業</h3>
+            <div class="brand-name">Restaurant Business</div>
+            <p>飲食店の企画・運営を通じて、新しい食の体験を創造します。</p>
+            <div class="info-list">
+              2026年10月 OPEN予定<br>
+              立川駅前<br>
+              <span class="coming">COMING SOON</span>
+            </div>
+            <div class="tap-note">TAP / CLICKで詳細を見る</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="history section" id="history">
+      <div class="section-title reveal">
+        <span>HISTORY</span>
+        <h2>これまでと、これから。</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="year">2026.02</div>
+          <div class="timeline-content">
+            <h3>株式会社TOKYO GAG 設立</h3>
+            <p>食と空間を軸に、新しい価値を創る会社としてスタート。</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="year">2026</div>
+          <div class="timeline-content">
+            <h3>キッチンカー榮登庵 展開</h3>
+            <p>場所に縛られないフード体験を届けるキッチンカー事業。</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="year">2026</div>
+          <div class="timeline-content">
+            <h3>Bar Don Coron daane 運営</h3>
+            <p>上質な空間で人が集い、語り合う時間を提供。</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="year">2026.10</div>
+          <div class="timeline-content">
+            <h3>立川駅前 新店舗 OPEN予定</h3>
+            <p>BAR 2号店、飲食事業ともに立川駅前で展開予定。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news section" id="news">
+      <div class="section-title reveal">
+        <span>NEWS</span>
+        <h2>最新情報</h2>
+      </div>
+
+      <div class="news-list reveal">
+        <article>
+          <time>2026.10</time>
+          <p>立川駅前にて新店舗OPEN予定。</p>
+        </article>
+        <article>
+          <time>2026.02</time>
+          <p>株式会社TOKYO GAGを設立しました。</p>
+        </article>
+        <article>
+          <time>COMING SOON</time>
+          <p>キッチンカー榮登庵のメニュー情報を公開予定。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="message section" id="message">
+      <div class="message-inner reveal">
+        <div class="section-label">MESSAGE</div>
+        <h2>一つの食事が、一つの出会いを生む。</h2>
+        <div class="lead">
+          <div class="lead-big">一つの空間が、一つの人生を変える。</div>
+          <div class="lead-text">私たちは、人が集い、笑い、語り合える場所を創り続けます。</div>
+        </div>
+        <div class="sign">
+          株式会社TOKYO GAG<br>
+          代表取締役　和田 銀露
+        </div>
+      </div>
+    </section>
+
+    <section class="company section" id="company">
+      <div class="section-title reveal">
+        <span>COMPANY</span>
+        <h2>会社概要</h2>
+      </div>
+
+      <div class="company-cards reveal">
+        <div><span>会社名</span><strong>株式会社TOKYO GAG</strong></div>
+        <div><span>設立</span><strong>2026年2月</strong></div>
+        <div><span>代表取締役</span><strong>和田 銀露</strong></div>
+        <div><span>資本金</span><strong>200万円</strong></div>
+        <div><span>所在地</span><strong>東京都町田市小野路町4452-138</strong></div>
+        <div><span>事業内容</span><strong>キッチンカー事業、バー運営、飲食事業</strong></div>
+      </div>
+    </section>
+
+    <section class="final-contact section" id="contact">
+      <div class="contact-panel reveal">
+        <span>CONTACT</span>
+        <h2>Let's Create<br>Something Together.</h2>
+        <p>一緒に新しい価値を創りませんか。</p>
+
+        <div class="contact-actions">
+          <a href="tel:0428604129">042-860-4129</a>
+          <a href="mailto:info@tokyo-gag.com">info@tokyo-gag.com</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=東京都町田市小野路町4452-138" target="_blank" rel="noopener">Google Map</a>
+        </div>
+
+        <div class="sns-row">
+          <a href="https://www.instagram.com/kitchencar.adrian/" target="_blank" rel="noopener">榮登庵 Instagram</a>
+          <a href="https://www.instagram.com/bar_doncondaane/" target="_blank" rel="noopener">Bar Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-top" id="backTop" aria-label="back to top">
+    <img src="tokyo_gag_logo.png" alt="">
+  </button>
+
+  <div class="modal" id="kitchenModal">
+    <div class="modal-box">
+      <button class="close" type="button" data-close>×</button>
+      <h2>キッチンカー榮登庵</h2>
+      <p>出店場所やイベントに合わせて、こだわりのメニューを提供します。</p>
+      <div class="modal-photo kitchen"></div>
+      <div class="menu-grid">
+        <div class="menu-item"><b>看板メニュー</b><span>COMING SOON</span></div>
+        <div class="menu-item"><b>限定メニュー</b><span>COMING SOON</span></div>
+        <div class="menu-item"><b>ドリンク</b><span>COMING SOON</span></div>
+        <div class="menu-item"><b>出店依頼</b><span>受付中</span></div>
+      </div>
+      <p class="modal-link">Instagram：<a href="https://www.instagram.com/kitchencar.adrian/" target="_blank">@kitchencar.adrian</a></p>
+    </div>
+  </div>
+
+  <div class="modal" id="barModal">
+    <div class="modal-box">
+      <button class="close" type="button" data-close>×</button>
+      <h2>Bar Don Coron daane</h2>
+      <p>神奈川県川崎市麻生区栗平1-4-26 B102<br>044-712-0899</p>
+      <p>2号店：2026年10月 立川駅前 OPEN予定<br>詳細はCOMING SOON</p>
+      <p class="modal-link">Instagram：<a href="https://www.instagram.com/bar_doncondaane/" target="_blank">@bar_doncondaane</a></p>
+    </div>
+  </div>
+
+  <div class="modal" id="foodModal">
+    <div class="modal-box">
+      <button class="close" type="button" data-close>×</button>
+      <h2>飲食事業</h2>
+      <p>2026年10月、立川駅前にてOPEN予定。</p>
+      <p>店舗名・メニュー・詳細情報はCOMING SOON。</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 TOKYO GAG Inc. All Rights Reserved.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
